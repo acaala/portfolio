@@ -4,7 +4,7 @@
       <div>
         <h1 class="title-font text-3xl">Liam Watts</h1>
       </div>
-      <div>
+      <div class="hidden md:flex">
         <a href="#">My work</a>
         <a href="#">My projects</a>
       </div>
