@@ -1,10 +1,11 @@
 <template>
   <div>
     <Nuxt />
+    <Footer />
   </div>
 </template>
 
-<style>
+<style lang="postcss">
 html {
   font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, sans-serif;
@@ -31,5 +32,15 @@ html {
 
 .primary-color {
   color: #4cfcd3;
+}
+
+button {
+  background-color: #ff45b5;
+  color: #ffffff;
+  @apply px-5 py-1 rounded-full;
+}
+button:hover {
+  background-color: #ffffff;
+  color: #ff45b5;
 }
 </style>
