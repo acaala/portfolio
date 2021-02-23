@@ -2,6 +2,7 @@
 
 ## To-do
 
+- [ ] Page transitions - slide in and out
 ## Projects
 
 -[ ] Add Renovation and Revamp
@@ -10,3 +11,7 @@
 - [ ] UI
 - [ ] Functionality
 - [ ] Recaptcha
+
+### Bugs
+
+- [ ] Fix scroll trigger on Featured Project
