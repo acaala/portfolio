@@ -18,11 +18,11 @@
         <rect x="2.5" y="2.5" width="46" height="86" rx="23" fill="none" />
       </g>
       <g
-        id="Ellipse_1"
+        id="scroll-circle"
         data-name="Ellipse 1"
         transform="translate(242 695)"
         fill="#fff"
-        stroke="#707070"
+        stroke="#fff"
         stroke-width="1"
       >
         <ellipse cx="16.5" cy="15" rx="16.5" ry="15" stroke="none" />
@@ -31,3 +31,21 @@
     </g>
   </svg>
 </template>
+<script lang="ts">
+import { defineComponent, onMounted } from '@nuxtjs/composition-api'
+export default defineComponent({
+  setup() {
+    onMounted(() => {
+      const t4 = gsap.timeline()
+
+      t4.to('#scroll-circle', {
+        duration: 3,
+        yPercent: 150,
+        yoyo: true,
+        repeat: -1,
+        ease: 'circ',
+      })
+    })
+  },
+})
+</script>
