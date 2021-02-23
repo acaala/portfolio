@@ -1,8 +1,8 @@
 <template>
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="51"
-    height="91"
+    width="35"
+    height="90"
     viewBox="0 0 51 91"
   >
     <g id="scroll-svg" transform="translate(-233 -685)">
