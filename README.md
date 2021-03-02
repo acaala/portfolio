@@ -13,5 +13,5 @@
 - [ ] Recaptcha
 
 ### Bugs
-
+- [ ] gsap + emailjs not defined 
 - [ ] Fix scroll trigger on Featured Project

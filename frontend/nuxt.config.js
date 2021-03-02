@@ -9,7 +9,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: 'A Portfolio Site | Coast | Creative | LW' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -17,7 +17,6 @@ export default {
     script: [
       { src: 'https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js' },
       { src: "https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js" },
-      { src: "https://www.google.com/recaptcha/api.js" },
       { src: "https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js " }
     ]
   },
