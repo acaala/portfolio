@@ -11,7 +11,9 @@
     </div>
 
     <div>
-      <button>Let's Talk</button>
+      <nuxt-link to="/contact">
+        <button class="btn-primary">Let's Talk</button>
+      </nuxt-link>
     </div>
   </header>
 </template>

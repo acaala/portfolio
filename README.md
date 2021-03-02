@@ -5,7 +5,7 @@
 - [ ] Page transitions - slide in and out
 ## Projects
 
--[ ] Add Renovation and Revamp
+- [ ] Add Renovation and Revamp
 
 ### Contact Form 
 - [ ] UI

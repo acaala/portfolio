@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container mx-auto px-2">
-      <div id="landing-page" class="h-screen">
+      <div id="landing-page" class="md:h-screen mb-10 md:mb-0">
         <Navbar />
         <Splash />
         <div
@@ -18,7 +18,7 @@
 
       <!-- Projects -->
       <div id="projects">
-        <FeaturedProject />
+        <LazyFeaturedProject />
       </div>
     </div>
     <Footer />

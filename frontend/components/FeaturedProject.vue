@@ -1,12 +1,12 @@
 <template>
   <div
     id="featured-project"
-    class="container bg-white rounded-xl lg:flex items-center px-5 py-12 my-12"
+    class="container bg-white rounded-xl lg:flex items-center px-5 py-12 my-12 shadow-2xl"
   >
     <!-- Text content -->
     <div
       id="featured-text"
-      class="lg:w-1/3 mx-auto text-center lg:text-left lg:mx-4 px-2 mb-2 md:mb-0"
+      class="lg:w-1/3 mx-auto text-center lg:text-left lg:mx-4 px-2 mb-2 md:mb-0 py-2"
     >
       <h3 class="uppercase tracking-widest text-xs lg:text-sm font-medium">
         featured project
@@ -15,9 +15,11 @@
         Coinseeker.netlify.app
       </h2>
       <p class="leading-relaxed text-gray-900 my-4">A Nuxt.JS app</p>
+
+      <!-- <button class="btn-secondary lg:mt-5 mx-auto mb-4">Take Me There</button> -->
     </div>
     <!-- Picture -->
-    <div id="featured-image" class="md:w-2/3 lg:ml-5">
+    <div id="featured-image" class="md:w-2/3 lg:ml-5 shadow-md">
       <FeaturedImage />
     </div>
   </div>

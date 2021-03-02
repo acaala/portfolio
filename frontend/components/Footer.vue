@@ -1,7 +1,9 @@
 <template>
   <footer>
     <h1 class="text-xl">Want to know more?</h1>
-    <button>Let's Talk</button>
+    <nuxt-link to="/contact"
+      ><button class="btn-primary">Let's Talk</button></nuxt-link
+    >
   </footer>
 </template>
 

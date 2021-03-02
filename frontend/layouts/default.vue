@@ -33,13 +33,23 @@ html {
   color: #4cfcd3;
 }
 
-button {
+.btn-primary {
   background-color: #ff45b5;
   color: #ffffff;
   @apply px-5 py-1 rounded-full;
 }
-button:hover {
+.btn-primary:hover {
   background-color: #ffffff;
   color: #ff45b5;
+}
+
+.btn-secondary {
+  border: 1px solid #ff45b5;
+  color: #ff45b5;
+  @apply px-5 py-1 rounded-full;
+}
+.btn-secondary:hover {
+  background-color: #ff45b5;
+  color: #ffffff;
 }
 </style>
