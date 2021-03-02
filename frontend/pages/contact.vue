@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto px-5">
     <header class="flex justify-between mx-auto items-center py-4">
       <h1 class="title-font text-3xl primary-color">Liam Watts</h1>
       <nuxt-link to="/">
@@ -55,6 +55,7 @@ import {
   ref,
   onMounted,
   reactive,
+  useContext,
 } from '@nuxtjs/composition-api'
 
 export default defineComponent({
@@ -63,6 +64,7 @@ export default defineComponent({
     const email = ref('')
     const message = ref('')
     let loading = ref(false)
+    const { app } = useContext()
 
     let form = reactive({
       from_name: name,
@@ -83,6 +85,7 @@ export default defineComponent({
         email.value = ''
         message.value = ''
         loading.value = false
+        app.$toast.show('Email Sent', { duration: 2000 })
         console.log(response)
       } catch (err) {
         console.log(err)
