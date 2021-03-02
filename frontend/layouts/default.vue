@@ -45,11 +45,10 @@ html {
 
 .btn-secondary {
   border: 1px solid #ff45b5;
-  color: #ff45b5;
+  color: #ffffff;
   @apply px-5 py-1 rounded-full;
 }
 .btn-secondary:hover {
   background-color: #ff45b5;
-  color: #ffffff;
 }
 </style>
