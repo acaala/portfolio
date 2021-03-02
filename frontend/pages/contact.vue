@@ -1,7 +1,9 @@
 <template>
   <div class="container mx-auto px-5">
     <header class="flex justify-between mx-auto items-center py-4">
-      <h1 class="title-font text-3xl primary-color">Liam Watts</h1>
+      <nuxt-link to="/">
+        <h1 class="title-font text-3xl primary-color">Liam Watts</h1></nuxt-link
+      >
       <nuxt-link to="/">
         <button class="btn-secondary">close</button>
       </nuxt-link>
@@ -88,7 +90,7 @@ export default defineComponent({
         app.$toast.show('Email Sent', { duration: 2000 })
         console.log(response)
       } catch (err) {
-        console.log(err)
+        app.$toast.error(err)
       }
     }
 

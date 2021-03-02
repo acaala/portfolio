@@ -1,9 +1,23 @@
-/* .page-enter-active,
-.page-leave-active {
-  transition: opacity 0.5s;
-}
-.page-enter,
-.page-leave-to {
-  opacity: 0;
+.page-enter-active {
+  animation: newPage 0.2s ease-in-out;
 
-} */
+
+}
+.page-leave-active {
+  
+  animation: leavePage 0.2s ease-in-out;
+
+
+}
+
+
+@keyframes leavePage {
+  to { transform: translateX(-200%)}
+  to { opacity: 0}
+
+}
+
+@keyframes newPage {
+  from { transform: translateX(200%)}
+  from { opacity: 0 }
+}
