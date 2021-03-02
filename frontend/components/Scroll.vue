@@ -31,7 +31,7 @@
     </g>
   </svg>
 </template>
-<script lang="ts">
+<script>
 import { defineComponent, onMounted } from '@nuxtjs/composition-api'
 export default defineComponent({
   setup() {
