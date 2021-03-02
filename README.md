@@ -8,8 +8,8 @@
 - [ ] Add Renovation and Revamp
 
 ### Contact Form 
-- [ ] UI
-- [ ] Functionality
+- [x] UI
+- [x] Functionality
 - [ ] Recaptcha
 
 ### Bugs
