@@ -17,8 +17,8 @@
       </div>
 
       <!-- Projects -->
-      <div id="projects">
-        <LazyFeaturedProject />
+      <div id="projects" class="h-screen">
+        <FeaturedProject />
       </div>
     </div>
     <Footer />

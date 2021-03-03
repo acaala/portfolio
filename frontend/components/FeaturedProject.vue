@@ -1,7 +1,7 @@
 <template>
   <div
     id="featured-project"
-    class="container bg-white rounded-xl lg:flex items-center px-5 py-12 my-12 shadow-2xl"
+    class="container bg-white rounded-xl lg:flex items-center px-5 py-12 mt-32 shadow-2xl"
   >
     <!-- Text content -->
     <div
@@ -25,34 +25,6 @@
   </div>
 </template>
 
-<script>
-import { defineComponent, onMounted } from '@nuxtjs/composition-api'
-export default defineComponent({
-  setup() {
-    onMounted(() => {
-      const t5 = gsap.timeline()
-
-      t5.from('#featured-text', {
-        scrollTrigger: '#featured-project',
-        start: 'bottom bottom',
-        x: -200,
-        duration: 3,
-        opacity: 0,
-      })
-      t5.from(
-        '#featured-image',
-        {
-          scrollTrigger: '#featured-project',
-          x: 300,
-          duration: 3,
-          opacity: 0,
-        },
-        '-=3'
-      )
-    })
-  },
-})
-</script>
 
 <style lang="postcss" scoped>
 h3 {
