@@ -5,7 +5,9 @@
         <h1 class="title-font text-3xl primary-color">Liam Watts</h1></nuxt-link
       >
       <nuxt-link to="/">
-        <button class="btn-secondary">close</button>
+        <button class="btn-secondary flex items-center">
+          <Delete class="w-4" />
+        </button>
       </nuxt-link>
     </header>
 
@@ -13,8 +15,9 @@
       <h2 class="title-font text-3xl text-center text-white">Hi, Let's Talk</h2>
 
       <form
+        method="post"
         @submit.prevent="sendMessage"
-        class="flex flex-col container lg:w-1/2 md:w-2/3 mx-auto space-y-20 my-12"
+        class="flex flex-col container lg:w-1/2 md:w-2/3 mx-auto space-y-10 my-12"
       >
         <div class="flex flex-col">
           <label for="name" class="">Name</label>
@@ -68,6 +71,8 @@ export default defineComponent({
     let loading = ref(false)
     const { app } = useContext()
 
+    const captcha = '6LfI1W4aAAAAADzhwfjVjXGB3rR0nFXNCHp5X3Mm'
+
     let form = reactive({
       from_name: name,
       from_email: email,
@@ -100,7 +105,7 @@ export default defineComponent({
 </script>
 <style lang="postcss" scoped>
 label {
-  @apply leading-7 text-sm text-gray-400;
+  @apply leading-7 text-sm text-gray-400 tracking-wide;
 }
 
 input,

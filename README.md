@@ -2,7 +2,7 @@
 
 ## To-do
 
-- [ ] Page transitions - slide in and out
+- [x] Page transitions - slide in and out
 ## Projects
 
 - [ ] Add Renovation and Revamp
@@ -13,5 +13,5 @@
 - [ ] Recaptcha
 
 ### Bugs
-- [ ] gsap + emailjs not defined 
+- [x] gsap + emailjs not defined 
 - [ ] Fix scroll trigger on Featured Project
