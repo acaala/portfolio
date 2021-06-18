@@ -1,6 +1,6 @@
 # Coast Creative Portfolio
 
-Built with Nuxt.JS TailwindCSS and uses the composition-api.
+Built with Nuxt.JS using the composition-api and TailwindCSS.
 
 ## Clone the repo
 `git clone git@github.com:acaala/portfolio.git`
