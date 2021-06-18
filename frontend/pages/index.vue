@@ -10,8 +10,8 @@
         >
           <div id="line"></div>
           <div class="flex ml-2">
-            <a href="https://github.com/acaala"> <Github class="mr-12" /></a>
-            <a href="https://www.linkedin.com/in/lawatts1/"><Linkedin /></a>
+            <a href="https://github.com/acaala"> <IconsGithub class="mr-12" /></a>
+            <a href="https://www.linkedin.com/in/lawatts1/"><IconsLinkedin /></a>
           </div>
         </div>
       </div>

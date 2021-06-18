@@ -7,10 +7,6 @@
   </footer>
 </template>
 
-<script>
-export default {}
-</script>
-
 <style lang="postcss">
 h1 {
   color: #4cfcd3;
