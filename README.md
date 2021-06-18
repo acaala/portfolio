@@ -2,12 +2,12 @@
 
 Built with Nuxt.JS TailwindCSS and uses the composition-api.
 
-#Clone the repo
+##Clone the repo
 `git clone git@github.com:acaala/portfolio.git`
 
-#Install dependancies 
+##Install dependancies 
 `yarn install`
 
-#Start development server
+##Start development server
 `yarn dev`
 
