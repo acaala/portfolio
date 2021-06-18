@@ -1,17 +1,13 @@
 # Coast Creative Portfolio
 
-## To-do
+Built with Nuxt.JS TailwindCSS and uses the composition-api.
 
-- [x] Page transitions - slide in and out
-## Projects
+#Clone the repo
+`git clone git@github.com:acaala/portfolio.git`
 
-- [ ] Add Renovation and Revamp
+#Install dependancies 
+`yarn install`
 
-### Contact Form 
-- [x] UI
-- [x] Functionality
-- [ ] Recaptcha
+#Start development server
+`yarn dev`
 
-### Bugs
-- [x] gsap + emailjs not defined 
-- [ ] Fix scroll trigger on Featured Project
