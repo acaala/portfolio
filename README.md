@@ -6,6 +6,7 @@ Built with Nuxt.JS using the composition-api and TailwindCSS.
 `git clone git@github.com:acaala/portfolio.git`
 
 ## Install dependancies 
+`cd frontend`
 `yarn install`
 
 ## Start development server
