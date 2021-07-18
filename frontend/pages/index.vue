@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container mx-auto px-2">
-      <div id="landing-page" class="md:h-screen mb-10 md:mb-0">
+      <div id="landing-page" class="md:h-screen mb-10">
         <Navbar />
         <Splash />
         <div
@@ -10,14 +10,19 @@
         >
           <div id="line"></div>
           <div class="flex ml-2">
-            <a href="https://github.com/acaala"> <IconsGithub class="mr-12" /></a>
-            <a href="https://www.linkedin.com/in/lawatts1/"><IconsLinkedin /></a>
+            <a href="https://github.com/acaala">
+              <IconsGithub class="mr-12"
+            /></a>
+            <a href="https://www.linkedin.com/in/lawatts1/"
+              ><IconsLinkedin
+            /></a>
           </div>
         </div>
       </div>
 
       <!-- Projects -->
-      <div id="projects" class="h-screen">
+      <div id="projects" class="grid grid-cols-1 my-5">
+        <Project />
         <FeaturedProject />
       </div>
     </div>
