@@ -34,6 +34,7 @@ html {
 }
 
 .btn-primary {
+  border: 1px solid #ff45b5;
   background-color: #ff45b5;
   color: #ffffff;
   @apply px-5 py-1 rounded-full;
@@ -50,5 +51,16 @@ html {
 }
 .btn-secondary:hover {
   background-color: #c53030;
+}
+
+.btn-project-card {
+  border: 1px solid #7b3ccc;
+  color: #7b3ccc;
+  @apply px-5 py-1 rounded-full;
+}
+
+.btn-project-card:hover {
+  background-color: #7b3ccc;
+  color: #ffffff;
 }
 </style>

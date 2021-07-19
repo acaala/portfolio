@@ -39,9 +39,16 @@
       <p class="leading-relaxed text-gray-900 my-4">
         A URL shortener built with Express, Mongo DB and Svelte.
       </p>
-      <a href="https://coast-url.netlify.app" class="btn-primary"
-        >Take Me There</a
-      >
+      <div class="flex space-x-10 justify-center">
+        <a href="https://coast-url.netlify.app" class="btn-primary"
+          >Take Me There</a
+        >
+        <a
+          href="https://github.com/acaala/url-shortener"
+          class="btn-project-card"
+          >Github Repo</a
+        >
+      </div>
     </div>
     <!-- Picture -->
     <div id="project-image" class="md:w-2/3 lg:ml-5 shadow-md">
