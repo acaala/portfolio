@@ -22,8 +22,8 @@
 
       <!-- Projects -->
       <div id="projects" class="grid grid-cols-1 my-5">
-        <Project />
-        <FeaturedProject />
+        <CoastUrl />
+        <Coinseeker />
       </div>
     </div>
     <Footer />

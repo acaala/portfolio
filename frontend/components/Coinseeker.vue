@@ -41,9 +41,11 @@
         data for cryptocurrencies, user can search for a single coin and can
         covert to a different currency.
       </p>
-      <a href="https://coinseeker.netlify.app" class="btn-primary"
-        >Take Me There</a
-      >
+      <div class>
+        <a href="https://coinseeker.netlify.app" class="btn-primary"
+          >Take Me There</a
+        >
+      </div>
     </div>
     <!-- Picture -->
     <div id="featured-image" class="md:w-2/3 lg:ml-5 shadow-md">
