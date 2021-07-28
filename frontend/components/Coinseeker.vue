@@ -1,17 +1,7 @@
 <template>
   <div
     id="featured-project"
-    class="
-      container
-      bg-white
-      rounded-xl
-      lg:flex
-      items-center
-      px-5
-      py-12
-      mt-32
-      shadow-2xl
-    "
+    class="container bg-white rounded-xl lg:flex items-center px-5 py-10 mt-32"
   >
     <!-- Text content -->
     <div
@@ -41,7 +31,18 @@
         data for cryptocurrencies, user can search for a single coin and can
         covert to a different currency.
       </p>
-      <div class="flex space-x-10 justify-center">
+      <div
+        class="
+          flex
+          md:flex-col
+          space-x-10
+          md:space-y-4 md:space-x-0
+          justify-center
+          text-center
+          my-4
+          md:w-2/3
+        "
+      >
         <a href="https://coinseeker.netlify.app" class="btn-primary"
           >Take Me There</a
         >

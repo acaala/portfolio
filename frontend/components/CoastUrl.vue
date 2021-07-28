@@ -1,17 +1,7 @@
 <template>
   <div
     id="featured-project"
-    class="
-      container
-      bg-white
-      rounded-xl
-      lg:flex
-      items-center
-      px-5
-      py-12
-      mt-32
-      shadow-2xl
-    "
+    class="container bg-white rounded-xl lg:flex items-center px-5 py-10"
   >
     <!-- Text content -->
     <div
@@ -39,7 +29,18 @@
       <p class="leading-relaxed text-gray-900 my-4">
         A URL shortener built with Express, Mongo DB and Svelte.
       </p>
-      <div class="flex space-x-10 justify-center">
+      <div
+        class="
+          flex
+          md:flex-col
+          space-x-10
+          md:space-y-4 md:space-x-0
+          justify-center
+          md:justify-left
+          text-center
+          my-4
+        "
+      >
         <a href="https://coast-url.netlify.app" class="btn-primary"
           >Take Me There</a
         >

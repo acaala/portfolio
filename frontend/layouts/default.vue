@@ -37,6 +37,7 @@ html {
   border: 1px solid #ff45b5;
   background-color: #ff45b5;
   color: #ffffff;
+  max-width: 191px;
   @apply px-5 py-1 rounded-full;
 }
 .btn-primary:hover {
@@ -47,6 +48,7 @@ html {
 .btn-secondary {
   border: 1px solid #c53030;
   color: #ffffff;
+
   @apply px-5 py-1 rounded-full;
 }
 .btn-secondary:hover {
@@ -56,6 +58,7 @@ html {
 .btn-project-card {
   border: 1px solid #7b3ccc;
   color: #7b3ccc;
+  max-width: 191px;
   @apply px-5 py-1 rounded-full;
 }
 
