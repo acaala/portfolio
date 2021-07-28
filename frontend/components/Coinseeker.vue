@@ -34,13 +34,12 @@
       <div
         class="
           flex
-          md:flex-col
+          lg:flex-col
           space-x-10
-          md:space-y-4 md:space-x-0
+          lg:space-y-4 lg:space-x-0
           justify-center
           text-center
           my-4
-          md:w-2/3
         "
       >
         <a href="https://coinseeker.netlify.app" class="btn-primary"
