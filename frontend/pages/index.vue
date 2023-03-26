@@ -22,7 +22,7 @@
 
       <!-- Projects -->
       <div id="projects" class="grid grid-cols-1 my-5">
-        <CoastUrl />
+        <Expense />
         <Coinseeker />
       </div>
     </div>
@@ -32,17 +32,17 @@
 
 <script>
 import { defineComponent, onMounted, ref } from '@nuxtjs/composition-api'
+import Expense from '~/components/Expense.vue'
 export default defineComponent({
-  setup() {
-    const didLoad = ref(false)
-    onMounted(() => {
-      const t3 = gsap.timeline()
-
-      t3.from('#splash-footer', { duration: 3, x: -300, opacity: 0 })
-
-      didLoad.value = true
-    })
-  },
+    setup() {
+        const didLoad = ref(false);
+        onMounted(() => {
+            const t3 = gsap.timeline();
+            t3.from("#splash-footer", { duration: 3, x: -300, opacity: 0 });
+            didLoad.value = true;
+        });
+    },
+    components: { Expense }
 })
 </script>
 
