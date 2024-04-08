@@ -5,4 +5,5 @@
 html {
 	background-color: #7b3ccc;
 	font-family: 'Poppins' sans-serif;
+	scroll-behavior: smooth;
 }
