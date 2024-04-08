@@ -1,3 +1,6 @@
 <header class="my-4">
-	<h2 class="title-font text-3xl text-primary">Liam Watts</h2>
+	<div class="text-primary flex justify-between items-center w-2/3">
+		<h2 class="title-font text-3xl">Liam Watts</h2>
+		<a href="#projects" class="uppercase tracking-widest text-sm">projects</a>
+	</div>
 </header>
