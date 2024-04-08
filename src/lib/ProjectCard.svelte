@@ -9,7 +9,7 @@
 	export let secondaryBtnText = 'Github Repo';
 </script>
 
-<div class="bg-white container rounded-xl items-center px-5 py-10 lg:flex">
+<div class="bg-white container rounded-xl items-center px-5 py-10 lg:flex justify-center">
 	<div class="mx-auto text-center p-2 mb-2 md:mb-0 lg:text-left lg:mx-4 lg:w-1/3">
 		<h2 class="uppercase tracking-widest text-xs lg:text-sm text-secondary">{subtitle}</h2>
 
@@ -36,9 +36,9 @@
 			{/if}
 		</div>
 	</div>
-	<div class="bg-primary rounded-3xl pt-2 w-full pr-2 md:w-2/3 lg:ml-5 shadow-md">
+	<div class="bg-primary rounded-3xl pt-2 w-full pr-2 md:w-2/3 lg:ml-5 shadow-md mx-auto">
 		<img
-			class="rounded-2xl max-h-[400px] h-full object-cover w-full object-top"
+			class="rounded-2xl max-h-[400px] h-full object-cover w-full object-top lg:max-h-[500px]"
 			src={image}
 			alt={title}
 		/>
