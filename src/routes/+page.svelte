@@ -1,11 +1,15 @@
 <script>
 	import { onMount } from 'svelte';
+	import { gsap } from 'gsap';
+
 	import ProjectCard from '$lib/ProjectCard.svelte';
 	import Github from '$lib/icons/Github.svelte';
 	import Linkedin from '$lib/icons/Linkedin.svelte';
 	import HeroShapes from '$lib/HeroShapes.svelte';
-	import { gsap } from 'gsap';
 	import Scroll from '$lib/Scroll.svelte';
+
+	import coinseekerImage from '$lib/images/coinseeker.png';
+	import rustoneImage from '$lib/images/rustone.png';
 
 	onMount(() => {
 		const t1 = gsap.timeline();
@@ -38,5 +42,24 @@
 		</div>
 	</div>
 
-	<ProjectCard />
+	<div id="projects" class="flex flex-col space-y-32 mb-32">
+		<ProjectCard
+			subtitle="Featured Project"
+			title="Rustone"
+			image={rustoneImage}
+			primaryBtnLink="https://github.com/acaala/rustone"
+			primaryBtnText="Github Repo"
+			description="An AI-powered guitar amp simulator in Rust using Tauri, inspired by Guitar Rig and Amplitube, dynamically generates setups based on user inputs."
+		/>
+
+		<ProjectCard
+			subtitle="Past project"
+			title="Coinseeker"
+			image={coinseekerImage}
+			primaryBtnLink="https://coinseeker.liamw.dev"
+			secondaryBtnLink="https://github.com/acaala/coinseeker"
+			description="A Nuxt.JS app using Composition-api and TailwindCSS. Fetches live price data for
+		cryptocurrencies, user can search for a single coin and can covert to a different currency."
+		/>
+	</div>
 </div>
