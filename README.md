@@ -9,7 +9,7 @@ To view the portfolio, visit [liamw.dev](https://liamw.dev).
 Below are some of the projects I've worked on.
 
 1. **Rustone**: A guitar amp simulator build with Rust and Tauri, wth AI integration to generate setups based on user input. [View Repo](https://github.com/acaala/rustone)
-2. **Coinseeker**: The first website I created. A real-time cryptocurrency price tracker built with Nuxt.JS and Tailwindcss. It allows users to search for cryptocurrencies, view live prices, and convert values between different currencies. [View Project](https://coinseeker.liamw.dev)[View Repo](https://github.com/acaala/coinseeker)
+2. **Coinseeker**: The first website I created. A real-time cryptocurrency price tracker built with Nuxt.JS and Tailwindcss. It allows users to search for cryptocurrencies, view live prices, and convert values between different currencies. [View Project](https://coinseeker.liamw.dev) [View Repo](https://github.com/acaala/coinseeker)
 
 ## Contact Me
 
