@@ -1,38 +1,19 @@
-# create-svelte
+# Portfolio
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Welcome to the GitHub repository for my portfolio. This site showcases my skills, projects, and professional journey as a Software Developer, Through this platform, I aim to connect with potential employers, collaborators, and anyone interested in my work.
 
-## Creating a project
+To view the portfolio, visit [liamw.dev](https://liamw.dev).
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Projects
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+Below are some of the projects I've worked on.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+1. **Rustone**: A guitar amp simulator build with Rust and Tauri, wth AI integration to generate setups based on user input. [View Repo](https://github.com/acaala/rustone)
+2. **Coinseeker**: The first website I created. A real-time cryptocurrency price tracker built with Nuxt.JS and Tailwindcss. It allows users to search for cryptocurrencies, view live prices, and convert values between different currencies. [View Project](https://coinseeker.liamw.dev)[View Repo](https://github.com/acaala/coinseeker)
 
-## Developing
+## Contact Me
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+For any inquiries, suggestions, or just to connect, feel free to reach out through any of the following platforms:
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- **Email**: [elnewatts@gmail.com](mailto:elnewatts@gmail.com)
+- **LinkedIn**: [lawatts1](https://www.linkedin.com/in/lawatts1/)
