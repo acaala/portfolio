@@ -10,6 +10,7 @@
 
 	import coinseekerImage from '$lib/images/coinseeker.png';
 	import rustoneImage from '$lib/images/rustone.png';
+	import quickReplaceImage from '$lib/images/quick-replace.png';
 
 	onMount(() => {
 		const t1 = gsap.timeline();
@@ -50,6 +51,15 @@
 			primaryBtnLink="https://github.com/acaala/rustone"
 			primaryBtnText="Github Repo"
 			description="An AI-powered guitar amp simulator in Rust using Tauri, inspired by Guitar Rig and Amplitube, dynamically generates setups based on user inputs."
+		/>
+
+		<ProjectCard
+			subtitle="Past project"
+			title="Quick Replace"
+			image={quickReplaceImage}
+			primaryBtnLink="https://quick-replace.liamw.dev"
+			secondaryBtnLink="https://github.com/acaala/quick_replace"
+			description="A fast find and replace tool leveraging websockets for real time replacement updates. Both the CLI tool and the Webserver are written in Rust"
 		/>
 
 		<ProjectCard
