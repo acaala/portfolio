@@ -1,7 +1,7 @@
 <script>
 	import ProjectCard from '$lib/ProjectCard.svelte';
 
-	import ren from '$lib/images/ren.png';
+	import ren from '$lib/images/ren.webp';
 </script>
 
 <h2 id="clients" class="text-primary mb-12 w-fit border-b border-white/80 text-4xl">Clients</h2>

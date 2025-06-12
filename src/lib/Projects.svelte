@@ -2,7 +2,7 @@
 	import ProjectCard from '$lib/ProjectCard.svelte';
 
 	import deepRiff from '$lib/images/deep-riff.webp';
-	import quickReplaceImage from '$lib/images/quick-replace.png';
+	import quickReplaceImage from '$lib/images/quick-replace.webp';
 	import rcv from '$lib/images/rcv.mp4';
 </script>
 
