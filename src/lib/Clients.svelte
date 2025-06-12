@@ -12,6 +12,6 @@
 		image={ren}
 		primaryBtnLink="https://renovationandrevamp.com"
 		primaryBtnText="View website"
-		description="Built using Svelte"
+		description="A modern, responsive marketing website for a local building contractor, designed to highlight services, showcase client reviews, and establish credibility. Built with SvelteKit and fully server-rendered for SEO and performance, the site includes an image carousel, Google Reviews integration. Deployed on a Linux server with Nginx and secured with SSL via Certbot."
 	/>
 </div>

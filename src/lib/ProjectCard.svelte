@@ -25,12 +25,14 @@
 		>
 			{#if primaryBtnLink}
 				<a
+					target="_blank"
 					class="border-secondary bg-secondary hover:text-secondary rounded-full border px-5 py-1 text-white hover:bg-white"
 					href={primaryBtnLink}>{primaryBtnText}</a
 				>
 			{/if}
 			{#if secondaryBtnLink}
 				<a
+					target="_blank"
 					class="border-tertiary text-tertiary hover:bg-tertiary rounded-full border bg-white px-5 py-1 hover:text-white"
 					href={secondaryBtnLink}>{secondaryBtnText}</a
 				>
@@ -54,7 +56,7 @@
 			</video>
 		{:else}
 			<img
-				class="h-full max-h-[400px] w-full rounded-2xl object-cover object-top lg:max-h-[500px]"
+				class="object-fit h-full max-h-[400px] w-full rounded-2xl lg:max-h-[500px]"
 				src={image}
 				alt={title}
 			/>
