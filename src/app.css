@@ -1,3 +1,17 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+html {
+	background-color: #7b3ccc;
+	font-family: 'Open Sans', sans-serif;
+	scroll-behavior: smooth;
+	src: url('/fonts/open-sans.ttf') format('truetype');
+	font-optical-sizing: auto;
+}
+
+@theme static {
+	--color-primary: #4cfcd3;
+	--color-secondary: #fd49a0;
+	--color-tertiary: #7b3ccc;
+}
