@@ -4,6 +4,7 @@
 	import deepRiff from '$lib/images/deep-riff.webp';
 	import quickReplaceImage from '$lib/images/quick-replace.webp';
 	import rcv from '$lib/images/rcv.mp4';
+	import reelmatch from '$lib/images/reelmatch.webp';
 </script>
 
 <h2 id="projects" class="text-primary mb-12 w-fit border-b border-white/80 text-4xl">Projects</h2>
@@ -13,6 +14,15 @@
 		title="Deep Riff"
 		image={deepRiff}
 		description="An AI-powered guitar amp simulator in Rust using Tauri, inspired by Guitar Rig and Amplitube, dynamically generates setups based on user inputs."
+	/>
+
+	<ProjectCard
+		subtitle="Group Movie Recommendation"
+		title="ReelMatch"
+		image={reelmatch}
+		primaryBtnLink="https://reelmatch.liamw.dev"
+		primaryBtnText="Take me there"
+		description="Reel Match is a collaborative movie night app where groups can recommend films, vote on what to watch next, and track what they've watched together — with AI-powered recommendations tailored to your group’s shared taste."
 	/>
 
 	<ProjectCard
