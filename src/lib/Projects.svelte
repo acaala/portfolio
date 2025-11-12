@@ -13,6 +13,7 @@
 		subtitle="Featured Project"
 		title="Deep Riff"
 		image={deepRiff}
+		primaryBtnLink="https://deepriff.com"
 		description="An AI-powered guitar amp simulator in Rust using Tauri, inspired by Guitar Rig and Amplitube, dynamically generates setups based on user inputs."
 	/>
 
