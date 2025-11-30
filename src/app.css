@@ -2,16 +2,26 @@
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
 
-html {
-	background-color: #7b3ccc;
-	font-family: 'Open Sans', sans-serif;
-	scroll-behavior: smooth;
-	src: url('/fonts/open-sans.ttf') format('truetype');
-	font-optical-sizing: auto;
-}
-
 @theme static {
 	--color-primary: #4cfcd3;
 	--color-secondary: #fd49a0;
 	--color-tertiary: #7b3ccc;
+}
+
+@layer components {
+	html {
+		background-color: #7b3ccc;
+		font-family: 'Open Sans', sans-serif;
+		scroll-behavior: smooth;
+		src: url('/fonts/open-sans.ttf') format('truetype');
+		font-optical-sizing: auto;
+	}
+
+	.card {
+		@apply absolute top-1/2 h-[80%] w-[65%] -translate-y-1/2 [transform:translateX(0%)_rotateY(-18deg)_translateZ(0)] rounded-xl object-fill shadow-xl transition-all duration-300 ease-out [transform-style:preserve-3d] hover:z-50 hover:h-[85%] hover:w-[70%] hover:[transform:translateX(0%)_rotateY(0)_translateZ(0px)];
+	}
+
+	.active {
+		@apply !z-40 h-[85%] w-[70%] [transform:translateX(0%)_rotateY(0)_translateZ(0px)];
+	}
 }
